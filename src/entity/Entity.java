@@ -1,7 +1,10 @@
 package entity;
 
+import java.util.Arrays;
+
 public class Entity {
     private int[] array;
+    private int id;
 
     public Entity(int[] array) {
         this.array = array;
@@ -15,4 +18,10 @@ public class Entity {
         this.array = array;
     }
 
+    @Override
+    public String toString() {
+        return "Entity{" +
+                "array=" + Arrays.toString(array) +
+                '}';
+    }
 }
