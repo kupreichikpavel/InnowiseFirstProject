@@ -1,6 +1,6 @@
-package service;
+package main.com.innowise.service;
 
-import entity.Entity;
+import main.com.innowise.entity.Entity;
 
 public interface FindingMinMaxValueInterface {
     int findMin(Entity entity);

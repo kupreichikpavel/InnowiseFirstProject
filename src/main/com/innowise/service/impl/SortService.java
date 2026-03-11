@@ -1,13 +1,18 @@
-package service.impl;
+package main.com.innowise.service.impl;
 
-import entity.Entity;
-import service.SortInterface;
+import main.com.innowise.entity.Entity;
+import main.com.innowise.factory.impl.EntityFactory;
+import main.com.innowise.service.SortInterface;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class SortService implements SortInterface {
+    private static final Logger logger = LogManager.getLogger(EntityFactory.class);
 
     @Override
     public void bubbleSort(Entity entity) {
+        logger.info("Choose bubble sort ");
         int[] arr = entity.getArray();
 
         for (int i = 0; i < arr.length - 1; i++) {
@@ -23,6 +28,7 @@ public class SortService implements SortInterface {
 
     @Override
     public void quickSort(Entity entity) {
+        logger.info("Choose quick sort ");
         int[] array = entity.getArray();
         quickSort(array, 0, array.length - 1);
     }
