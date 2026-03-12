@@ -14,7 +14,7 @@ public class MinMaxService implements FindingMinMaxValueInterface {
     private static final Logger logger = LogManager.getLogger(EntityFactory.class);
 
     @Override
-    public int findMin(Entity entity) {
+    public int findMin(Entity entity) throws EntityException {
         logger.info("Finding min value");
         return Arrays.stream(entity.getArray())
                 .min()
@@ -22,7 +22,7 @@ public class MinMaxService implements FindingMinMaxValueInterface {
     }
 
     @Override
-    public int findMax(Entity entity) {
+    public int findMax(Entity entity) throws EntityException {
         logger.info("Finding max value");
         return Arrays.stream(entity.getArray())
                 .max()

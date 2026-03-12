@@ -4,11 +4,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import main.com.innowise.validator.ValidatorInterface;
 
+import java.util.List;
+
 import static main.com.innowise.consts.Consts.NUMBER_REGEX;
 
 
 public class ValidatorService implements ValidatorInterface {
-    private static Logger logger = LogManager.getLogger(ValidatorService.class);
+    private static final Logger logger = LogManager.getLogger(ValidatorService.class);
 
 
     @Override

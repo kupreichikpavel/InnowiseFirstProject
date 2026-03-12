@@ -4,4 +4,5 @@ import java.util.List;
 
 public interface ValidatorInterface {
     boolean isValidate(String line);
+
 }

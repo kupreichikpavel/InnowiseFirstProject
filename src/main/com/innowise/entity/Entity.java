@@ -6,19 +6,18 @@ import org.apache.logging.log4j.Logger;
 import java.util.Arrays;
 
 
-
 public class Entity {
 
     private static final Logger logger = LogManager.getLogger(Entity.class);
 
     private int[] array;
 
-   public Entity(int[] array) {
+    public Entity(int[] array) {
         this.array = array;
     }
 
     public int[] getArray() {
-        return array.clone();
+        return array;
     }
 
     public void setArray(int[] array) {
