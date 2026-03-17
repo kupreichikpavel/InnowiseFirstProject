@@ -28,7 +28,7 @@ public class WareHouse {
     public void removeIntoStorage(int idForRemove) {
         for (int i = 0; i < storage.size(); i++) {
 
-        }где
+        }
     }
 
 
