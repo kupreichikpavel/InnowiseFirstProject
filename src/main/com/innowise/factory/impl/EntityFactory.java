@@ -11,6 +11,7 @@ public class EntityFactory implements EntityFactoryInterface {
 
     @Override
     public Entity createEntity(int[] array) {
+
         logger.info("Create new Entity");
         return new Entity(array);
     }

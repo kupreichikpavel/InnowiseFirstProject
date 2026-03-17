@@ -1,44 +1,27 @@
-2026-03-12 11:57:42.676 [main] ERROR main.com.innowise.reader.impl.ArrayFileReader - File is empty: /Users/alexey/IdeaProjects/InnowiseFirstProject/src/resources/arrays.txt
-2026-03-12 11:57:42.677 [main] WARN  main.com.innowise.Main - Error reading file:main.com.innowise.exception.EntityException: File is empty: /Users/alexey/IdeaProjects/InnowiseFirstProject/src/resources/arrays.txt
-2026-03-12 12:00:12.538 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-12 12:00:12.541 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-12 12:00:12.541 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:00:12.541 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-12 12:00:12.542 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:00:12.543 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
-2026-03-12 12:00:12.544 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
-2026-03-12 12:00:12.544 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
-2026-03-12 12:00:12.544 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-12 12:00:12.544 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-12 12:00:12.544 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-12 12:00:12.544 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-12 12:21:06.436 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:22:44.157 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create empty Entity
-2026-03-12 12:22:44.160 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:22:44.161 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:23:35.052 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create empty Entity
-2026-03-12 12:23:35.055 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:23:35.055 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:54:42.226 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-12 12:54:42.232 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create empty Entity
-2026-03-12 12:54:42.233 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:54:42.233 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:54:42.233 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Finding max value
-2026-03-12 12:54:42.235 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Finding min value
-2026-03-12 12:54:42.236 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose quick sort 
-2026-03-12 12:54:42.237 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
-2026-03-12 12:55:15.620 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-12 12:55:15.623 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create empty Entity
-2026-03-12 12:55:15.624 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:55:15.624 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-12 12:55:15.625 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Finding max value
-2026-03-12 12:55:15.626 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Finding min value
-2026-03-12 12:55:15.627 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose quick sort 
-2026-03-12 12:55:15.627 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
+2026-03-17 10:49:26.591 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
+2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
+2026-03-17 10:49:26.593 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
+2026-03-17 10:49:26.593 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
+2026-03-17 10:49:26.593 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
+2026-03-17 10:49:26.593 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
+2026-03-17 10:49:26.594 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
+2026-03-17 10:49:26.594 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
+2026-03-17 10:49:26.594 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
+2026-03-17 10:49:26.594 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
+2026-03-17 10:49:26.595 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
+2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array

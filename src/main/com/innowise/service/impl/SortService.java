@@ -25,6 +25,7 @@ public class SortService implements SortInterface {
                 }
             }
         }
+        entity.setArray(arr);
     }
 
     @Override
@@ -32,9 +33,11 @@ public class SortService implements SortInterface {
         logger.info("Choose quick sort ");
         int[] array = entity.getArray();
         quickSort(array, 0, array.length - 1);
+        entity.setArray(array);
     }
 
     private void quickSort(int[] array, int low, int high) {
+
         if (low < high) {
             int pivotIndex = partition(array, low, high);
             quickSort(array, low, pivotIndex - 1);

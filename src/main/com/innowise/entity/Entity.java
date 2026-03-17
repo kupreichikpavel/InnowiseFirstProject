@@ -9,20 +9,27 @@ import java.util.Arrays;
 public class Entity {
 
     private static final Logger logger = LogManager.getLogger(Entity.class);
-
+    private static int couunter = 1;
     private int[] array;
+    private final int id;
 
     public Entity(int[] array) {
+        this.id = couunter++;
         this.array = array;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public int[] getArray() {
-        return array;
+        return Arrays.copyOf(array, array.length);
     }
 
     public void setArray(int[] array) {
-        this.array = array;
+        this.array = Arrays.copyOf(array, array.length);
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -36,11 +43,17 @@ public class Entity {
             return false;
         }
 
+
         if (o.getClass().equals(this.getClass())) {
             Entity arrays = (Entity) o;
-            if (this.array.length == arrays.getArray().length) {
-                for (int i = 0; i < arrays.getArray().length; i++) {
-                    if (this.array[i] != arrays.getArray()[i]) {
+            int[] entityArray = arrays.getArray();
+
+            if (this.id != arrays.id) {
+                return false;
+            }
+            if (this.array.length == entityArray.length) {
+                for (int i = 0; i < entityArray.length; i++) {
+                    if (this.array[i] != entityArray[i]) {
                         return false;
                     }
                 }
@@ -52,13 +65,14 @@ public class Entity {
 
     @Override
     public int hashCode() {
-        return Arrays.hashCode(array) * 31;
+        return Arrays.hashCode(array) * 31 + id;
     }
 
     @Override
     public String toString() {
         return "Entity{" +
                 "array=" + Arrays.toString(array) +
+                ", id=" + id +
                 '}';
     }
 }
