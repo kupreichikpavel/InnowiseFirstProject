@@ -1,11 +1,10 @@
 package test.com.innowise.kupreychik;
 
-import main.com.innowise.entity.Entity;
-import main.com.innowise.exception.EntityException;
-import main.com.innowise.factory.impl.EntityFactory;
-import main.com.innowise.service.impl.MinMaxService;
-import main.com.innowise.service.impl.SortService;
-import main.com.innowise.service.impl.SumService;
+import main.com.innowise.arraymanager.entity.Entity;
+import main.com.innowise.arraymanager.exception.EntityException;
+import main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
+import main.com.innowise.arraymanager.service.impl.EntityAnalyzerImpl;
+import main.com.innowise.arraymanager.service.impl.ArraySortImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
@@ -16,10 +15,9 @@ import static org.testng.internal.junit.ArrayAsserts.assertArrayEquals;
 
 public class AppTest {
     private static final Logger logger = LogManager.getLogger(AppTest.class);
-    private static final EntityFactory factory = new EntityFactory();
-    private final SortService sortService = new SortService();
-    private final SumService sumService = new SumService();
-    private final MinMaxService minMaxService = new MinMaxService();
+    private static final EntityFactoryImpl factory = new EntityFactoryImpl();
+    private final ArraySortImpl sortService = new ArraySortImpl();
+    private final EntityAnalyzerImpl minMaxService = new EntityAnalyzerImpl();
 
     @Test
     void testCreateEntityWithValidArray() {
@@ -87,7 +85,7 @@ public class AppTest {
         Entity entity = new Entity(new int[]{5});
         int expected = 5;
 
-        int actual = sumService.sum(entity);
+        int actual = minMaxService.sum(entity);
 
         assertEquals(expected, actual);
     }

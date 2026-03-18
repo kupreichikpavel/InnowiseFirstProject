@@ -1,27 +1,70 @@
-2026-03-17 10:49:26.591 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-17 10:49:26.592 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-17 10:49:26.593 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Parsing line to array of integer numbers
-2026-03-17 10:49:26.593 [main] INFO  main.com.innowise.parser.impl.ParserLineToArray - Successful parsing to IntArray
-2026-03-17 10:49:26.593 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Create new Entity
-2026-03-17 10:49:26.593 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
-2026-03-17 10:49:26.594 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
-2026-03-17 10:49:26.594 [main] WARN  main.com.innowise.validator.impl.ValidatorService - Line does not match regex: 
-2026-03-17 10:49:26.594 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-17 10:49:26.594 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
-2026-03-17 10:49:26.595 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.factory.impl.EntityFactory - Choose bubble sort 
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.entity.Entity - Sum of elements
-2026-03-17 10:49:26.596 [main] INFO  main.com.innowise.service.impl.AverageService - Finding average element in array
+2026-03-18 18:16:55.661 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1; 2; 3
+2026-03-18 18:16:55.662 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:16:55.662 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1; 2; 3
+2026-03-18 18:16:55.662 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:16:55.662 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:16:55.663 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 11; 2
+2026-03-18 18:16:55.663 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:16:55.663 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 11; 2
+2026-03-18 18:16:55.663 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:16:55.663 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:16:55.663 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 3 4 7
+2026-03-18 18:16:55.663 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:16:55.664 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 3 4 7
+2026-03-18 18:16:55.664 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:16:55.664 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:16:55.664 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1, 2, 3
+2026-03-18 18:16:55.664 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:16:55.664 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1, 2, 3
+2026-03-18 18:16:55.664 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:16:55.664 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:16:55.665 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1; 2; x3; 6..5; 77
+2026-03-18 18:16:55.665 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1y1 21 32
+2026-03-18 18:16:55.665 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: abc
+2026-03-18 18:16:55.665 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:16:55.665 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:16:55.667 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:16:55.668 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:16:55.668 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:16:55.668 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:20:54.518 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1; 2; 3
+2026-03-18 18:20:54.519 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:20:54.519 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1; 2; 3
+2026-03-18 18:20:54.519 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:20:54.519 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:20:54.520 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 11; 2
+2026-03-18 18:20:54.520 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:20:54.520 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 11; 2
+2026-03-18 18:20:54.521 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:20:54.521 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:20:54.522 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 3 4 7
+2026-03-18 18:20:54.522 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:20:54.522 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 3 4 7
+2026-03-18 18:20:54.522 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:20:54.522 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:20:54.522 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1, 2, 3
+2026-03-18 18:20:54.522 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Parsing line to array of integer numbers
+2026-03-18 18:20:54.522 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1, 2, 3
+2026-03-18 18:20:54.523 [main] INFO  main.com.innowise.arraymanager.parser.impl.EntityParserImpl - Successful parsing to IntArray
+2026-03-18 18:20:54.523 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Create new Entity
+2026-03-18 18:20:54.523 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1; 2; x3; 6..5; 77
+2026-03-18 18:20:54.523 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: 1y1 21 32
+2026-03-18 18:20:54.523 [main] WARN  main.com.innowise.arraymanager.validator.impl.ArrayValidator - Line does not match regex: abc
+2026-03-18 18:20:54.523 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:20:54.523 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:20:54.525 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:20:54.525 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:20:54.525 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:20:54.525 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:20:54.525 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:20:54.525 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:20:54.526 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
+2026-03-18 18:20:54.526 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Choose bubble sort 
+2026-03-18 18:20:54.526 [main] INFO  main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl - Sum of elements
+2026-03-18 18:20:54.526 [main] INFO  main.com.innowise.arraymanager.service.impl.AverageCalculatorImpl - Finding average element in array
