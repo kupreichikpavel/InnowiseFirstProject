@@ -1,9 +1,13 @@
 package main.com.innowise.arraymanager.entity;
 
+import main.com.innowise.arraymanager.observer.EntityObserver;
+import main.com.innowise.arraymanager.observer.impl.EntityStatisticsObserver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
@@ -13,10 +17,17 @@ public class Entity {
     private int[] array;
     private static final AtomicInteger counter = new AtomicInteger(0);
     private final int id;
+    private final List<EntityObserver> observers = new ArrayList<>();
+    private final EntityStatisticsObserver observer = new EntityStatisticsObserver();
 
     public Entity(int[] array) {
         this.id = counter.incrementAndGet();
         this.array = array;
+    }
+
+    public void setElement(int index, int value) {
+        this.array[index] = value;
+        notifyObservers();
     }
 
     public int getId() {
@@ -29,8 +40,25 @@ public class Entity {
 
     public void setArray(int[] array) {
         this.array = Arrays.copyOf(array, array.length);
+        notifyObservers();
     }
 
+
+    public void attach(EntityObserver observer) {
+        if (observer != null && !observers.contains(observer)) {
+            observers.add(observer);
+        }
+    }
+
+    public void detach(EntityObserver observer) {
+        observers.remove(observer);
+    }
+
+    private void notifyObservers() {
+        for (EntityObserver observer : observers) {
+            observer.update(this);
+        }
+    }
 
     @Override
     public boolean equals(Object o) {

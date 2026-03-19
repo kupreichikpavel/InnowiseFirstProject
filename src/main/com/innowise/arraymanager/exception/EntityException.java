@@ -1,6 +1,6 @@
 package main.com.innowise.arraymanager.exception;
 
-public class EntityException extends Exception{
+public class EntityException extends Exception {
     public EntityException(String message) {
         super(message);
     }
@@ -12,6 +12,7 @@ public class EntityException extends Exception{
     public EntityException(Throwable cause) {
         super(cause);
     }
+
     public EntityException() {
     }
 }

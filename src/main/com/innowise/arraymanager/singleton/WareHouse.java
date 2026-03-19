@@ -1,6 +1,5 @@
 package main.com.innowise.arraymanager.singleton;
 
-import main.com.innowise.arraymanager.entity.Entity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,7 +10,10 @@ public class WareHouse {
 
     private static final Logger logger = LogManager.getLogger(WareHouse.class);
     private static WareHouse instance;
-    private Map<Integer, int[]> storage = new HashMap<>();
+    private final Map<Integer, EntityParameters> storage = new HashMap<>();
+
+    private WareHouse() {
+    }
 
     public static WareHouse getInstance() {
         if (instance == null) {
@@ -20,12 +22,20 @@ public class WareHouse {
         return instance;
     }
 
-    public void putToStorage(int entityId, Entity entity) {
-        storage.put(entityId, entity.getArray());
+
+    public void put(int entityId, EntityParameters entityParametrs) {
+        logger.info("Put parameters to storage");
+        storage.put(entityId, entityParametrs);
     }
 
-    public void removeIntoStorage(int idForRemove) {
+    public void remove(int id) {
+        logger.info("Remove parameters to storage");
+        storage.remove(id);
     }
 
+    public EntityParameters get(int id) {
+        logger.info("Get parameters to storage");
+        return storage.get(id);
+    }
 
 }

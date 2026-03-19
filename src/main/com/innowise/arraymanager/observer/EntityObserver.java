@@ -4,5 +4,5 @@ import main.com.innowise.arraymanager.entity.Entity;
 
 public interface EntityObserver {
 
-    void update(Entity entity);
+    void update(Entity entity) ;
 }
