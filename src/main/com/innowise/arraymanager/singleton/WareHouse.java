@@ -1,4 +1,4 @@
-package main.com.innowise.arraymanager.singleton;
+package com.innowise.arraymanager.singleton;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,6 +9,7 @@ import java.util.Map;
 public class WareHouse {
 
     private static final Logger logger = LogManager.getLogger(WareHouse.class);
+
     private static WareHouse instance;
     private final Map<Integer, EntityParameters> storage = new HashMap<>();
 

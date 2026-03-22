@@ -1,6 +1,6 @@
-package main.com.innowise.arraymanager.parser;
+package com.innowise.arraymanager.parser;
 
-import main.com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.exception.EntityException;
 
 public interface EntityParser {
     int[] parseToIntArray(String lines) throws EntityException;

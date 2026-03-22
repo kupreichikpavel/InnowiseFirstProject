@@ -1,7 +1,7 @@
-package main.com.innowise.arraymanager.reader.impl;
+package com.innowise.arraymanager.reader.impl;
 
-import main.com.innowise.arraymanager.exception.EntityException;
-import main.com.innowise.arraymanager.reader.ArrayReader;
+import com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.reader.ArrayReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -1,7 +1,7 @@
-package main.com.innowise.arraymanager.repository;
+package com.innowise.arraymanager.repository;
 
-import main.com.innowise.arraymanager.entity.Entity;
-import main.com.innowise.arraymanager.specification.Specification;
+import com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.specification.Specification;
 
 import java.util.Comparator;
 import java.util.List;

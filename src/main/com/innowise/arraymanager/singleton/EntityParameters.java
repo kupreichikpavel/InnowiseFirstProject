@@ -1,13 +1,18 @@
-package main.com.innowise.arraymanager.singleton;
+package com.innowise.arraymanager.singleton;
 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class EntityParameters {
+    private static final Logger logger = LogManager.getLogger(EntityParameters.class);
     private final int sum;
     private final int min;
     private final int max;
     private final int average;
 
     public EntityParameters(int sum, int min, int max, int average) {
+        logger.info("Creating EntityParameters sum,min,max,average");
         this.sum = sum;
         this.min = min;
         this.max = max;
@@ -39,6 +44,7 @@ public class EntityParameters {
 
     @Override
     public int hashCode() {
+        logger.info("Hashing EntityParameters sum,min,max,average");
         int result = sum;
         result = 31 * result + min;
         result = 31 * result + max;

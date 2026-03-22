@@ -1,4 +1,4 @@
-package main.com.innowise.arraymanager.exception;
+package com.innowise.arraymanager.exception;
 
 public class EntityException extends Exception {
     public EntityException(String message) {

@@ -1,6 +1,6 @@
-package main.com.innowise.arraymanager.reader;
+package com.innowise.arraymanager.reader;
 
-import main.com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.exception.EntityException;
 
 import java.util.List;
 

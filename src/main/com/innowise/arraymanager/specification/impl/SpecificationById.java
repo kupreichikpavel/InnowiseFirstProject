@@ -1,7 +1,7 @@
-package main.com.innowise.arraymanager.specification.impl;
+package com.innowise.arraymanager.specification.impl;
 
-import main.com.innowise.arraymanager.entity.Entity;
-import main.com.innowise.arraymanager.specification.Specification;
+import com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.specification.Specification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -1,8 +1,8 @@
-package main.com.innowise.arraymanager.parser.impl;
+package com.innowise.arraymanager.parser.impl;
 
-import main.com.innowise.arraymanager.exception.EntityException;
-import main.com.innowise.arraymanager.parser.EntityParser;
-import main.com.innowise.arraymanager.validator.impl.ArrayValidator;
+import com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.parser.EntityParser;
+import com.innowise.arraymanager.validator.impl.ArrayValidator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

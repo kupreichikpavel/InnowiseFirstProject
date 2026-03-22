@@ -1,27 +1,27 @@
-package main.com.innowise.arraymanager.entity;
+package com.innowise.arraymanager.entity;
 
-import main.com.innowise.arraymanager.observer.EntityObserver;
-import main.com.innowise.arraymanager.observer.impl.EntityStatisticsObserver;
+import com.innowise.arraymanager.observer.EntityObserver;
+import com.innowise.arraymanager.observer.impl.EntityStatisticsObserver;
+import com.innowise.arraymanager.utils.IdGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 
 public class Entity {
 
     private static final Logger logger = LogManager.getLogger(Entity.class);
+
     private int[] array;
-    private static final AtomicInteger counter = new AtomicInteger(0);
     private final int id;
     private final List<EntityObserver> observers = new ArrayList<>();
     private final EntityStatisticsObserver observer = new EntityStatisticsObserver();
 
     public Entity(int[] array) {
-        this.id = counter.incrementAndGet();
+        this.id = IdGenerator.incrementAndGet();
         this.array = array;
     }
 

@@ -1,6 +1,6 @@
-package main.com.innowise.arraymanager.observer;
+package com.innowise.arraymanager.observer;
 
-import main.com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.entity.Entity;
 
 public interface EntityObserver {
 

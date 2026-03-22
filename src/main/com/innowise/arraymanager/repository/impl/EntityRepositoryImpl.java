@@ -1,14 +1,14 @@
-package main.com.innowise.arraymanager.repository.impl;
+package com.innowise.arraymanager.repository.impl;
 
-import main.com.innowise.arraymanager.entity.Entity;
-import main.com.innowise.arraymanager.exception.EntityException;
-import main.com.innowise.arraymanager.observer.impl.EntityStatisticsObserver;
-import main.com.innowise.arraymanager.repository.EntityRepository;
-import main.com.innowise.arraymanager.service.EntityStatisticsCalculator;
-import main.com.innowise.arraymanager.service.impl.EntityStatisticsCalculatorImpl;
-import main.com.innowise.arraymanager.singleton.EntityParameters;
-import main.com.innowise.arraymanager.singleton.WareHouse;
-import main.com.innowise.arraymanager.specification.Specification;
+import com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.observer.impl.EntityStatisticsObserver;
+import com.innowise.arraymanager.repository.EntityRepository;
+import com.innowise.arraymanager.service.EntityStatisticsCalculator;
+import com.innowise.arraymanager.service.impl.EntityStatisticsCalculatorImpl;
+import com.innowise.arraymanager.singleton.EntityParameters;
+import com.innowise.arraymanager.singleton.WareHouse;
+import com.innowise.arraymanager.specification.Specification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

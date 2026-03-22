@@ -1,8 +1,8 @@
-package main.com.innowise.arraymanager.validator.impl;
+package com.innowise.arraymanager.validator.impl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import main.com.innowise.arraymanager.validator.Validator;
+import com.innowise.arraymanager.validator.Validator;
 
 
 public class ArrayValidator implements Validator {

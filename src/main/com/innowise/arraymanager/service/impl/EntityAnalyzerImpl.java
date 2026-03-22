@@ -1,9 +1,9 @@
-package main.com.innowise.arraymanager.service.impl;
+package com.innowise.arraymanager.service.impl;
 
-import main.com.innowise.arraymanager.entity.Entity;
-import main.com.innowise.arraymanager.exception.EntityException;
-import main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
-import main.com.innowise.arraymanager.service.EntityAnalyzer;
+import com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
+import com.innowise.arraymanager.service.EntityAnalyzer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

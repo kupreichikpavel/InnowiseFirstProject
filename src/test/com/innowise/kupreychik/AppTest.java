@@ -1,16 +1,14 @@
-package test.com.innowise.kupreychik;
+package com.innowise.kupreychik;
 
-import main.com.innowise.arraymanager.entity.Entity;
-import main.com.innowise.arraymanager.exception.EntityException;
-import main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
-import main.com.innowise.arraymanager.repository.impl.EntityRepositoryImpl;
-import main.com.innowise.arraymanager.service.impl.EntityAnalyzerImpl;
-import main.com.innowise.arraymanager.service.impl.ArraySortImpl;
-import main.com.innowise.arraymanager.service.impl.EntityStatisticsCalculatorImpl;
-import main.com.innowise.arraymanager.singleton.EntityParameters;
-import main.com.innowise.arraymanager.singleton.WareHouse;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.exception.EntityException;
+import com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
+import com.innowise.arraymanager.repository.impl.EntityRepositoryImpl;
+import com.innowise.arraymanager.service.impl.ArraySortImpl;
+import com.innowise.arraymanager.service.impl.EntityAnalyzerImpl;
+import com.innowise.arraymanager.service.impl.EntityStatisticsCalculatorImpl;
+import com.innowise.arraymanager.singleton.EntityParameters;
+import com.innowise.arraymanager.singleton.WareHouse;
 import org.testng.annotations.Test;
 
 import java.util.List;

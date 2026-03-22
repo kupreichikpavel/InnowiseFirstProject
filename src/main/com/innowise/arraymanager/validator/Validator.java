@@ -1,4 +1,4 @@
-package main.com.innowise.arraymanager.validator;
+package com.innowise.arraymanager.validator;
 
 public interface Validator {
     boolean isValidate(String line);

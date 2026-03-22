@@ -1,9 +1,8 @@
-package main.com.innowise.arraymanager.service.impl;
+package com.innowise.arraymanager.service.impl;
 
-import main.com.innowise.arraymanager.entity.Entity;
-import main.com.innowise.arraymanager.exception.EntityException;
-import main.com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
-import main.com.innowise.arraymanager.service.ArraySort;
+import com.innowise.arraymanager.entity.Entity;
+import com.innowise.arraymanager.factory.impl.EntityFactoryImpl;
+import com.innowise.arraymanager.service.ArraySort;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,7 +11,7 @@ public class ArraySortImpl implements ArraySort {
     private static final Logger logger = LogManager.getLogger(EntityFactoryImpl.class);
 
     @Override
-    public void bubbleSort(Entity entity) throws EntityException {
+    public void bubbleSort(Entity entity) {
         logger.info("Choose bubble sort ");
         int[] arr = entity.getArray();
 
@@ -29,7 +28,7 @@ public class ArraySortImpl implements ArraySort {
     }
 
     @Override
-    public void quickSort(Entity entity) throws EntityException {
+    public void quickSort(Entity entity)  {
         logger.info("Choose quick sort ");
         int[] array = entity.getArray();
         quickSort(array, 0, array.length - 1);
